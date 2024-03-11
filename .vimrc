@@ -4,6 +4,8 @@ syntax on
 set number
 set relativenumber
 set cursorline
+" PowerShell CursorLine adjustment
+hi CursorLine cterm=NONE ctermbg=0 ctermfg=NONE
 set cursorcolumn
 set incsearch
 set hlsearch
